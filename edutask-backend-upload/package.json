@@ -1,0 +1,20 @@
+{
+    "name": "edutask-server",
+    "version": "1.0.0",
+    "description": "EduTask Backend Server",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@google/generative-ai": "^0.24.1",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "^4.18.2",
+        "express-session": "^1.17.3",
+        "multer": "^1.4.5-lts.1",
+        "sql.js": "^1.10.3",
+        "ws": "^8.16.0"
+    }
+}
